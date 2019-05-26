@@ -1,0 +1,184 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    
+}
+
+#container {
+    background-image: linear-gradient(to bottom, #E3E3E3 30%, #FFFFFF 43%, #FFFFFF 70%);
+    width: 1100px;
+    min-height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background: linear-gradient(to bottom, 
+    white 55%, #3575AD 55%, #3575AD 65%, #7EA5C5 80%, #3575AD 92%);  
+    min-height: 100px;
+    
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+header h1 {
+    display: inline-block;
+    font-size: 40px;
+    position: relative;
+    top: -35px;
+    color: gray;
+}
+header span{
+    color: #22659E;
+}
+header h2 {
+    color: white;
+    font-size: 30px;
+    margin: -15px 0px 0px 20px;
+    padding-bottom: 15px;
+}
+aside{
+    width: 200px;
+    min-height: 400px;
+    margin: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+aside h3 {
+    padding: 5px 0px;
+}
+span.inter {
+    color: red;
+}
+aside span {
+    color: #22659E;
+}
+aside button {
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.719);
+    
+}
+button.watch {
+    min-height: 40px;
+    background: linear-gradient(rgb(105, 156, 197), #22659E);
+    margin: 15px 0px 5px;
+    padding: 5px 44px;
+}
+button.more {
+    min-height: 40px;
+    background: linear-gradient(rgb(241, 181, 96), #EF7A00);
+    padding: 5px 33px;
+    margin-bottom: 20px;
+}
+.ad {
+    background-image: url("ad_background.png");
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    height: 350px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.ad img{
+    width: 100px;
+    height: 140px;
+    margin: 25px; 
+}
+button.learn {
+    background: linear-gradient(#61CDDE, #00C2DF);
+    height: 40px;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+#main, #main img, #main h4, address {
+    display: inline-block;
+    vertical-align: top;
+}
+#main {
+    min-height: 500px;
+    width: 800px;
+    margin: 5px 0px 0px 40px;
+}
+#main span {
+    color: #00C2DF;
+}
+#main img:not(.phone) {
+    width: 30px;
+    height: 30px;
+}
+#main h4 {
+    color: #22659E;
+    margin-top: 15px;
+    margin-right: 440px;
+}
+img.phone {
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px;
+}
+address {
+    font-style: normal;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+
+}
+address span {
+    font-weight: bold;
+    font-size: 30px;
+}
+article h2 {
+    color: #22659E;
+    margin-bottom: 5px;
+}
+article ul{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+article li {
+    margin-bottom: 10px;
+}
+img.graph{
+    height: 110px !important;
+    width: 300px !important;
+    margin-left: 240px;
+    margin-bottom: 10px;
+}
+article ol {
+    margin-left: 40px;
+}
+#footer{
+    border: 5px solid;
+    border-color: #0085E0 #0085E0 white;
+    box-shadow: 2px 2px 5px black;
+    padding: 10px;
+    margin-top: 15px;
+    height: 120px;
+    
+}
+#footer img {
+    display: inline-block;
+    height: 130px !important;
+    width: 150px !important;
+}
+#footer h1 {
+    display: inline-block;
+    text-align: right;
+}
+#footer span.the {
+    color: #22659E ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px ;
+}
+#footer p{
+    position: relative;
+    top: -90px;
+    left: 155px;
+    margin-bottom: 10px;
+    
+    
+}
